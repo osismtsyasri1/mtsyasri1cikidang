@@ -58,7 +58,7 @@ header ul li a:hover{
 	color: #fff;
 }
 .banner{
-	height: 100vh;
+	height: 100%;
 	background-image: url(MTs.jpg);
 	background-size: cover;
 	position: relative;
