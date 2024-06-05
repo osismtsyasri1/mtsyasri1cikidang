@@ -1,0 +1,250 @@
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #37E6F7;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.container ul>li> .dropdown{
+	display: none;
+}
+.container ul>li:hover .dropdown {
+	display: block;
+	background-color: white;
+	position: absolute;
+}
+
+header h1{
+	float: left;
+	padding: 15px 0px;
+	color: #37E6F7;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #37E6F7;
+	color: #fff;
+}
+.active{
+	background-color: #37E6F7;
+	color: #fff;
+}
+.banner{
+	height: 100vh;
+	background-image: url(MTs.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.banner h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+}
+
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #37E6F7;
+
+}
+
+footer {
+	width: 100%;
+    padding: 20px 0;
+    background-color: #37E6F7;
+    color: white;
+    text-align: center;
+}
+
+.service h4 {
+    text-align: center;
+    padding: 20px 0;
+    color: #37E6F7;
+}
+
+.box .col-4 {
+	width:25%;
+	padding:20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.icon {
+	width:70px;
+	height:70px;
+	border:1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	margin:0 auto;
+}
+.box .col-4 h4 {
+	margin:20px 0;
+}
+
+.visimisi h4 {
+	text-align: center;
+	padding: 20px 0;
+	color: #37E6F7;
+}
+
+.document img {
+	width: 350px;
+	border: 3px solid blueviolet;
+	border-radius: 10px;
+	margin-right: 20px;
+	float: left;
+}
+
+.document h2 {
+	font-size: 40px;
+}
+
+.document p {
+	font-size: 20px;
+}
+
+video {
+	border: 3px solid blueviolet;
+	border-radius: 10px;
+	margin-right: 15px;
+	float: left;
+}
+
+.video h2 {
+	font-size: 40px;
+}
+
+.video p {
+	font-size: 20;
+}
+
+.osis img {
+	display: block;
+	margin: auto;
+	border: 3px solid blueviolet;
+	border-radius: 20px;
+}
+
+.strucktur {
+	border: 3px solid blueviolet;
+	border-radius: 15px;
+	margin-right: 15px;
+	float: left;
+}
+
+.doc-osis img {
+	display: block;
+	margin: auto;
+	width: 350px;
+	border: 3px solid blueviolet;
+	border-radius: 10px;
+	float: initial;
+}
+
+.doc-osis h2 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.doc-osis p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.container h2 {
+	font-size: 40;
+	align-items: center;
+}
+
+.pelajaran h2 {
+	font-size: 40;
+	text-align: center;
+}
+
+.pelajaran p {
+	text-align: center;
+}
+
+.container img {
+	float: left;
+	border: 3px solid blueviolet;
+	border-radius: 15px;
+	margin-right: 15px;
+}
+
+.pendaftaran h2 {
+	text-align: center;
+	color: #37E6F7;
+}
+
+section h2 {
+	text-align: center;
+	color: #37E6F7;
+}
+
+.pendaftaran img {
+	display: block;
+	margin: auto;
+	width: 350px;
+	border: 3px solid blueviolet;
+	border-radius: 10px;
+	float: initial;
+}
+
+.pendaftaran p {
+	text-align: center;
+}
+
+.pendaftaran button {
+	color: white;
+	background-color: blue;
+	padding: 8px 20px;
+	border: 4px solid blueviolet;
+	border-radius: 20px;
+	display: block;
+	margin: auto;
+	float: initial;
+}
